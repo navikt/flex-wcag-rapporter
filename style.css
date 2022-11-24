@@ -1,0 +1,118 @@
+body {
+    font-family: "Noto Sans", "Trebuchet MS", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    text-decoration-skip-ink: none;
+    background-color: var(--body-bg);
+    color: var(--off-black);
+    max-width: 1250px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+main > :not(:last-child) {
+    margin-bottom: 1em;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto 2fr;
+    gap: 0.5em 1em;
+    margin: 1rem 0;
+}
+
+dt {
+    display: block;
+}
+
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+
+h1, h2 {
+    margin: 60px 0 20px;
+}
+
+h1 + h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+@media (min-width: 60em) {
+    h1 {
+        font-size: 2.375rem;
+    }
+}
+
+@media (min-width: 35em) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+h2 {
+    font-size: 1.375rem;
+    line-height: 1.2;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #005a6a;
+}
+
+h5 {
+    font-weight: 700;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+#guideline-11 {
+    color: #005a6a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #bccbd3;
+}
+
+th {
+    font-weight: 700;
+    color: #fff;
+    background-color: #005a6a;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+}
+
+th[scope=row] {
+    background-color: inherit;
+}
+
+th:first-child {
+    width: 30%;
+}
+
+td:nth-child(2) {
+    width: 25%;
+}
+
+td:not([class]):last-child {
+    padding: 0 1em;
+}
