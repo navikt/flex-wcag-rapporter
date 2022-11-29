@@ -1,6 +1,6 @@
 # flex-wcag-rapporter
 
-Lagre rapporter (WCAG-EM) for våre prosjekter her.
+Lagre rapporter (WCAG-EM) for våre prosjekter her. Rapportverktøyet kan hentes her: https://www.w3.org/WAI/eval/report-tool/
 
 Styling for rapporter ligger i /style.css
 
