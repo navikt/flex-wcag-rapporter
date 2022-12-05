@@ -45,6 +45,35 @@ h1 {
     margin-top: 0;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 0;
+    margin-bottom: 2.5rem !important;
+    background-color: #f2f2f2;
+    border-radius: 0.5em;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+ul li span {
+    font-size: 1.125em;
+    display: block;
+    margin-bottom: 0.125em;
+    line-height: 1;
+}
+
+ul li span:first-child {
+    font-size: 3rem;
+    color: #00818d;
+}
+
 @media (min-width: 60em) {
     h1 {
         font-size: 2.375rem;
@@ -103,6 +132,8 @@ th, td {
 
 th[scope=row] {
     background-color: inherit;
+    color: inherit;
+    text-align: left;
 }
 
 th:first-child {
