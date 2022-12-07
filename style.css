@@ -3,8 +3,8 @@ body {
     line-height: 1.5;
     font-size: 1rem;
     text-decoration-skip-ink: none;
-    background-color: var(--body-bg);
-    color: var(--off-black);
+    background-color: #fafafc;
+    color: #1d1d1d;
     max-width: 1250px;
     padding: 2rem;
     margin: 0 auto;
